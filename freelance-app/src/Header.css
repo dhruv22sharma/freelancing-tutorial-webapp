@@ -1,0 +1,20 @@
+.h1{
+    background-color:
+    #234361;
+    height: 100%;
+    font-size: 30px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    size: 200px;
+
+}
