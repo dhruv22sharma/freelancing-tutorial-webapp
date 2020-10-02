@@ -1,0 +1,14 @@
+.Product{
+    background-color:antiquewhite;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 20px;
+    size:10px;
+    line-height: 10px;
+    margin:30px;
+    object-fit: contain;
+    border-radius: 10px;
+}
