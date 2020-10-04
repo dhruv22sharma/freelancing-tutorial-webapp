@@ -1,0 +1,33 @@
+.main_footer {
+  padding: 0rem 1rem 0rem 1rem;
+}
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 2rem;
+}
+.Footer_logo {
+  display: flex;
+  color: #99e699;
+  font-weight: 400;
+}
+.social_media {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+.Footer_logo img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 0.2rem;
+}
+.social_media a img {
+  height: 1.5rem;
+
+  width: 1.5rem;
+}

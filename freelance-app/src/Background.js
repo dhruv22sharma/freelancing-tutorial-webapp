@@ -6,6 +6,8 @@ import Register from './Register'
 import AboutUs from './AboutUs.js'
 import { Button } from '@material-ui/core'
 
+import Dashboard from './Dashboard.jsx'
+import './Dashboard.css'
 
 
 function Background() {
@@ -14,9 +16,9 @@ function Background() {
 
     return (
         <div>
-        
+     
+     <Dashboard/>
         <Button className="Button" onClick={()=>setSign(!Sign)}>Sign In/Register</Button>
-        
 
         {Sign && <div className="SignIn_Register">
             <SignIn/>

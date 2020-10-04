@@ -18,7 +18,7 @@ export default function SignIn() {
   function Login(){
     const x = document.getElementById('mail').value;
     const y = document.getElementById('password').value;
-    firebase.auth().signInWithEmailAndPassword(x, y).then(l =>(true)).catch(e=>(window.alert("Wrong email or password")))
+    firebase.auth().signInWithEmailAndPassword(x, y).then(l =>(window.alert("Welcome "+x))).catch(e=>(window.alert("Wrong email or password")))
   }
   return (
     <div className="SignIn">
