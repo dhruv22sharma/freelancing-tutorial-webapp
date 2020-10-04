@@ -1,0 +1,41 @@
+.SignIn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+    width: 50%;
+}
+
+.SignIn>input{
+    margin-top: 30px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0px;
+}
+
+.SignIn>Button{
+    margin-top: 30px;
+    background-color:#80ffcc;
+    color:black;
+}
+
+.Heading{
+    background-color:#80ffcc;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color:black;
+    width: 50%;
+    border-radius: 5px;
+    height: 50px;
+}
+
+.Names{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
