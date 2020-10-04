@@ -1,0 +1,70 @@
+.cart {
+  padding: 1rem 1rem 1rem;
+}
+.cart h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.cart-content {
+  display: flex;
+  justify-content: space-around;
+}
+.cart-list {
+  width: 70%;
+}
+.cart-list-head {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0rem;
+  border-bottom: 0.1rem solid black;
+  font-weight: bold;
+}
+.Billing {
+  text-align: center;
+  background-color: #b3ffcc;
+  padding: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  border: 0.1em solid black;
+  border-radius: 1em;
+  width: 20vw;
+  height: 20rem;
+}
+.Billing h4 {
+  font-size: 2rem;
+  font: bold;
+  margin-bottom: 0.5em;
+}
+.Billing span {
+  font-size: 1.5rem;
+}
+.Billing button {
+  padding: 0.2em;
+  border-radius: 0.2rem;
+  height: 3em;
+  width: 10em;
+  margin-top: 1rem;
+  border: none;
+  background-color: #008066;
+  color: #fff2e6;
+  margin-bottom: 0.5rem;
+  transition: ease;
+}
+.pay-images {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.pay-images img {
+  height: 2rem;
+  width: 3rem;
+}
+.Billing div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.Billing button:hover {
+  cursor: pointer;
+  outline: auto black;
+}
